@@ -20,6 +20,24 @@
  Queue<Element> queue = new Queue<>()와 같은 형식으로 선언.
 -기본은 우선순위가 낮은 숫자가 부여되고, 높은 숫자가 우선순위가 되게 하고 싶다면
   Collections.reverseOrder() 메서드를 활용한다.
+  
+  
+ ex)Priority Queue 선언
+  import java.util.PriorityQueue;
+  
+  //int형 priorityQueue 선언 (우선순위가 낮은 숫자 순)
+  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+  
+  //int형 priorityQueue 선언 (우선 순위가 높은 숫자 순)
+  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
+  
+  //String형 priorityQueue 선언(우선 순위가 낮은 숫자 순)
+  PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+  
+  //String 형 priorityQueue 선언 (우선 순위가 높은 숫자 순)
+  PriorityQueue<String> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
+  
+  
 # 힙(Heap)
  힙(Heap)은 우선순위 큐를 위해 고안도니 완전이진트리 형태의 자료구조이다.
  여러 개의 값 중 최댓값 혹은 최솟값을 찾아내는 연산이 빠르다.
@@ -34,7 +52,10 @@
     ##최대 힙(Max Heap)
     부모 노드의 키 값이 자식 노드보다 크거나 같은 완전이진트리이다.
    "key(부모노드) >= key(자식노드)"
-     
+    
+  
+  
+  
     ##최소 힙(Min Heap)
     부모 노드의 키 값이 자식 노드보다 작거나 같은 완전이진트리이다.
    "key(부모노드) =< key(자식노드)"
