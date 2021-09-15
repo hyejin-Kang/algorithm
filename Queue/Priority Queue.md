@@ -22,20 +22,20 @@
   Collections.reverseOrder() 메서드를 활용한다.
   
   
- ex)Priority Queue 선언
-  import java.util.PriorityQueue;
+  ex)Priority Queue 선언</br>
+  import java.util.PriorityQueue;</br>
   
-  //int형 priorityQueue 선언 (우선순위가 낮은 숫자 순)
-  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+  //int형 priorityQueue 선언 (우선순위가 낮은 숫자 순)</br>
+  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();</br>
   
-  //int형 priorityQueue 선언 (우선 순위가 높은 숫자 순)
-  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
+  //int형 priorityQueue 선언 (우선 순위가 높은 숫자 순)</br>
+  PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());</br>
   
-  //String형 priorityQueue 선언(우선 순위가 낮은 숫자 순)
-  PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+  //String형 priorityQueue 선언(우선 순위가 낮은 숫자 순)</br>
+  PriorityQueue<String> priorityQueue = new PriorityQueue<>();</br>
   
-  //String 형 priorityQueue 선언 (우선 순위가 높은 숫자 순)
-  PriorityQueue<String> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
+  //String 형 priorityQueue 선언 (우선 순위가 높은 숫자 순)</br>
+  PriorityQueue<String> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());</br>
   
   
 # 힙(Heap)
